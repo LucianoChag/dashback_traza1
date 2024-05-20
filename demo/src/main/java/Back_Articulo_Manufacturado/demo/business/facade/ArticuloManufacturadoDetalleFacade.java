@@ -1,0 +1,9 @@
+package Back_Articulo_Manufacturado.demo.business.facade;
+
+
+import Back_Articulo_Manufacturado.demo.business.facade.Base.BaseFacade;
+import Back_Articulo_Manufacturado.demo.domain.dto.ArticuloManufacturadoDetalle.ArticuloManufacturadoDetalleCreateDto;
+import Back_Articulo_Manufacturado.demo.domain.dto.ArticuloManufacturadoDetalle.ArticuloManufacturadoDetalleDto;
+
+public interface ArticuloManufacturadoDetalleFacade extends BaseFacade<ArticuloManufacturadoDetalleDto, ArticuloManufacturadoDetalleCreateDto, ArticuloManufacturadoDetalleCreateDto, Long> {
+}
